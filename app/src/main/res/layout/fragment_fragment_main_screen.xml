@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main_screen"
-    android:background="@color/colorPrimary">
+    tools:context=".fragment_main_screen">
+
+
 
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/recycler_view"
-        android:scrollbars="vertical"
-    >
-    </android.support.v7.widget.RecyclerView>
+        >
 
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>
